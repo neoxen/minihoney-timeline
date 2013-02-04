@@ -3,7 +3,10 @@
 
 <HEAD>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+
     <title>迷你蜜-打造武汉地区最火的亲子游乐社区 - 迷你蜜</title>
 
     <meta name="keywords" content="迷你蜜 亲子 妈宝 早教"/>
@@ -14,15 +17,14 @@
     <meta name="application-name" content="迷你蜜"/>
     <meta name="msapplication-tooltip" content="迷你蜜"/>
 
-
-    <LINK class="lfr-css-file" rel="stylesheet" type="text/css" href="style/timeline.css">
-
-    <SCRIPT src="script/jquery.min.js"></SCRIPT>
-
+    <script src="script/jquery.min.js"></script>
     <SCRIPT type="text/javascript" src="script/jquery.timeliner.js"></SCRIPT>
 
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap-responsive.css">
+    <LINK class="lfr-css-file" rel="stylesheet" type="text/css" href="style/timeline.css">
     <style>
-        .container {
+        .maincontent {
             width: 960px;
             margin-right: auto;
             margin-left: auto;
@@ -33,10 +35,7 @@
             margin: 10px 0;
             font-family: inherit;
             font-weight: bold;
-            line-height: 20px;
-            color: inherit;
             text-rendering: optimizelegibility;
-
             line-height: 40px;
             font-size: 38.5px;
             color: red;
@@ -47,15 +46,28 @@
 </HEAD>
 <BODY>
 
-<div class="container">
-    <h2>
-        <a href="../portal.php" title="迷你蜜">
-            <img src="../static/image/common/logo.gif" alt="迷你蜜" border="0"/>
-        </a>
-    </h2>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="#" title="迷你蜜">
+                <img src="../static/image/common/logo.gif" alt="迷你蜜" border="0"/>
+                <!--<img src="images/logo.gif" alt="迷你蜜" border="0"/>-->
+            </a>
+            <div class="navbar-content">
+                <ul class="nav  pull-right">
+                    <li class="active">
+                        <a href="#">精彩回顾</a>
+                    </li>
+                    <li>
+                        <a href="../portal.php">迷你蜜亲子论坛</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="container" style="text-align:center;">
+<div class="maincontent" style="text-align:center;">
     <h1>
         <span class="slogan">迷你蜜亲子论坛2012年度部分精彩活动回顾</span>
     </h1>
@@ -330,15 +342,13 @@
 
 <div style="clear:both; display:block;">&nbsp;</div>
 
-<div class="container" style="clear:both; margin-top:50px;">
+<div class="maincontent" style="clear:both; margin-top:50px;">
 
-    <h1>
-        <a href="../portal.php" title="进入迷你蜜">
-            <span style="margin-left:500px; font-size:24px;"> >>> 点击进入迷你蜜亲子论坛</span>
-        </a>
-    </h1>
+    <a href="../portal.php" class="btn btn-large btn-block" type="button">>>> 点击进入迷你蜜亲子论坛</a>
 
 </div>
+
+<script src="script/bootstrap.min.js"></script>
 
 </BODY>
 </HTML>
