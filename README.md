@@ -6,4 +6,4 @@ Based on Jquery and timeline plugin, this page demostrate some highlights of for
 TODO
 ----
 
-+ add bootstrap style
++ none
